@@ -1,36 +1,42 @@
-# S-ries-temporais-energy
+Análise Avançada de Séries Temporais na Produção de Energia 📈⚡
 
-Previsão de Séries Temporais com ARIMA
-Este repositório contém um script Python que demonstra a utilização do modelo ARIMA (AutoRegressive Integrated Moving Average) para previsão de séries temporais. O ARIMA é uma técnica estatística amplamente utilizada para prever valores futuros com base em padrões temporais passados.
+Bem-vindo ao repositório de análise de séries temporais aplicada à produção de energia elétrica! Este notebook abrangente oferece insights valiosos desde a visualização inicial dos dados até a aplicação de modelos sofisticados para previsões futuras.
+Conteúdo do Repositório 📂
 
-Conteúdo do Repositório
-Código Python: O repositório inclui um arquivo Python que demonstra como importar bibliotecas como pandas, numpy e matplotlib, bem como como criar um modelo ARIMA para análise de séries temporais.
-Pré-Requisitos
-Certifique-se de ter as seguintes bibliotecas instaladas:
+    Notebook Jupyter: Análise_Series_Temporais_Producao_Energia.ipynb
 
-pandas
-numpy
-matplotlib
-statsmodels
-Você pode instalá-las usando o pip:
+Como Usar 🚀
 
-bash
-Copy code
-pip install pandas numpy matplotlib statsmodels
-Como Usar
-Clone ou faça o download do repositório para a sua máquina local.
+    Baixe o notebook e abra-o em seu ambiente Jupyter local ou em plataformas como Google Colab.
+    Instale as bibliotecas necessárias usando o comando pip install -r requirements.txt.
 
-Execute o script Python em um ambiente Python compatível.
+Conteúdo Detalhado 📊
 
-O script demonstra o uso do modelo ARIMA e pode ser personalizado para atender às suas necessidades específicas de análise de séries temporais.
+    Importação e Instalação de Bibliotecas:
+        Importação de pandas, numpy, matplotlib, e instalação de pacotes adicionais.
 
-Observações
-Este repositório é uma introdução básica à análise de séries temporais com o modelo ARIMA. Você pode expandir e personalizar o código para se adequar aos seus próprios conjuntos de dados e cenários de análise.
+    Leitura e Visualização de Dados:
+        Leitura dos dados de produção de energia a partir de um arquivo Excel.
+        Estatísticas descritivas e gráficos informativos.
 
-Certifique-se de consultar a documentação das bibliotecas utilizadas para obter informações mais detalhadas sobre como usar essas bibliotecas em análises de séries temporais.
+    Análise de Séries Temporais:
+        Decomposição da série temporal em tendência, sazonalidade e resíduo.
+        Teste de estacionariedade utilizando o teste ADF.
 
-Contribuições
-Contribuições são bem-vindas. Sinta-se à vontade para enviar pull requests ou abrir issues se encontrar algum problema ou tiver sugestões de melhoria.
+    Modelagem SARIMAX:
+        Utilização do Auto ARIMA para determinar os melhores parâmetros.
+        Criação e análise de um modelo SARIMAX.
 
-Licença
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para obter detalhes.
+    Backtesting e Avaliação de Desempenho:
+        Realização de backtesting com previsões dos últimos 12 meses.
+        Cálculo do RMSE para avaliação de desempenho.
+
+    Previsões Futuras com XGBoost:
+        Treinamento de um modelo XGBoost para prever a produção futura.
+        Avaliação do modelo usando o MAE.
+
+Licença 📜
+
+Este projeto é licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
+
+Sinta-se à vontade para explorar, modificar e utilizar o código para seus próprios projetos. Contribuições são bem-vindas! 🌟
